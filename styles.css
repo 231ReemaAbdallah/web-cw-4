@@ -12,29 +12,63 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flexer{
+    display: flex;
+    height: 100%;
+}
+.ccontainer{
+    display: inline; 
+     height: 100%;
+
+}
 
 .sidebar{
+    width: 120px;
+    background-color: lightslategrey;
     /* pxالعرض هنا يجب ان يكون 120 */
+    color: white;
+    height: 100%;
+    margin-right: 10px;
+   margin-top: 9px;
+   border-radius: 10px;
+
 }
 
 .header{
+    height: 100px;
+    background-color: linen;
     /* pxالطول هنا يجب ان يكون 80 */
+    margin-bottom: 10px;
+    margin-top: 9px;
+    border-radius: 7px;
+
 }
 
 .main{
-
+background-color: pink;
+text-align: center;
+height: 86%;
+font-size: medium;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 10px;
 }
 
 a{
+    text-decoration: none;
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
+a:hover{
+    color: white;
+}
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
-
+p{
+    text-align: c;
+}
 
 h1{
     margin: 0;
@@ -46,3 +80,13 @@ h2{
     margin-left: 5px;
 }
 
+footer{
+    margin-top: 10px;
+    background-color: silver;
+    font-size: medium;
+    font-family: cursive;
+    color: tomato;
+    text-align: center;
+    border-radius: 7px;
+
+}
