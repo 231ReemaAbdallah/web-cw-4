@@ -46,7 +46,7 @@ html, body{
 
 .main{
 background-color: pink;
-text-align: center;
+/* text-align: center; */
 height: 86%;
 font-size: medium;
 font-family: 'Courier New', Courier, monospace;
@@ -67,7 +67,7 @@ a:hover{
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
 p{
-    text-align: c;
+    text-align: center;
 }
 
 h1{
